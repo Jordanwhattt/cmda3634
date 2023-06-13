@@ -1,0 +1,13 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+rm -f *.o main.out
+mpicc -I ./ -O0  -o cyclicPassing.o -c cyclicPassing.c 
+mpicc -O0  -o main.out cyclicPassing.o -lm
+nranks=8
+
+Rank 0 outv: [0 0 0 0 0 10 10 10 10 10 ]
+Rank 0 inv: [
+Rank 1 outv: [1 1 1 1 1 11 11 11 11 11 ]
+Rank 1 inv: [10 10 10 10 10 2 2 2 2 2 ]
+
+Rank 2 outv: [2 2 2 2 2 12 12 12 12 12 ]
+Rank 2 inv: [11 11 11 11 11 3 3 3 3 3 ]

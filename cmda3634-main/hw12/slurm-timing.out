@@ -1,0 +1,44 @@
+Core distribution on nodes:
+128
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+make: `main.out' is up to date.
+initil: 1,2.6759e-07
+loop B: 1,0.000313525
+loop H: 1,1.65245
+loop I: 1,1.0324
+loop J: 1,0.000274127
+initil: 2,1.08169e-06
+loop B: 2,0.00015828
+loop H: 2,0.839997
+loop I: 2,0.758117
+loop J: 2,0.000139194
+initil: 4,1.31589e-06
+loop B: 4,8.69049e-05
+loop H: 4,0.434368
+loop I: 4,0.436564
+loop J: 4,7.42672e-05
+initil: 8,3.90526e-06
+loop B: 8,5.00227e-05
+loop H: 8,0.219767
+loop I: 8,0.233048
+loop J: 8,4.37178e-05
+initil: 16,2.05317e-05
+loop B: 16,2.7876e-05
+loop H: 16,0.110451
+loop I: 16,0.120673
+loop J: 16,2.50441e-05
+initil: 32,2.98855e-05
+loop B: 32,2.45314e-05
+loop H: 32,0.0556308
+loop I: 32,0.0609627
+loop J: 32,1.97681e-05
+initil: 64,7.5105e-05
+loop B: 64,2.5566e-05
+loop H: 64,0.0292923
+loop I: 64,0.0320496
+loop J: 64,2.2039e-05
+initil: 128,7.75789e-05
+loop B: 128,4.3258e-05
+loop H: 128,0.0146481
+loop I: 128,0.0171269
+loop J: 128,3.8636e-05

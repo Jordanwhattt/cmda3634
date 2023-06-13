@@ -1,0 +1,135 @@
+
+The system default contains no modules
+  (env var: LMOD_SYSTEM_DEFAULT_MODULES is empty)
+  No changes in loaded modules
+
+gcc -I./ -g -fopenmp  -o pi.o -c pi.c 
+pi.c:1:2: error: stray ‘#’ in program
+ B#include <stdio.h>
+  ^
+pi.c:1:1: error: unknown type name ‘B’
+ B#include <stdio.h>
+ ^
+pi.c:1:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+ B#include <stdio.h>
+           ^
+In file included from pi.c:2:0:
+/usr/include/stdlib.h:139:8: error: unknown type name ‘size_t’
+ extern size_t __ctype_get_mb_cur_max (void) __THROW __wur;
+        ^
+In file included from pi.c:2:0:
+/usr/include/stdlib.h:331:4: error: unknown type name ‘size_t’
+    size_t __statelen) __THROW __nonnull ((2));
+    ^
+/usr/include/stdlib.h:361:4: error: unknown type name ‘size_t’
+    size_t __statelen,
+    ^
+/usr/include/stdlib.h:465:22: error: unknown type name ‘size_t’
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+                      ^
+/usr/include/stdlib.h:467:22: error: unknown type name ‘size_t’
+ extern void *calloc (size_t __nmemb, size_t __size)
+                      ^
+/usr/include/stdlib.h:467:38: error: unknown type name ‘size_t’
+ extern void *calloc (size_t __nmemb, size_t __size)
+                                      ^
+/usr/include/stdlib.h:479:36: error: unknown type name ‘size_t’
+ extern void *realloc (void *__ptr, size_t __size)
+                                    ^
+In file included from /usr/include/stdlib.h:491:0,
+                 from pi.c:2:
+/usr/include/alloca.h:32:22: error: unknown type name ‘size_t’
+ extern void *alloca (size_t __size) __THROW;
+                      ^
+In file included from pi.c:2:0:
+/usr/include/stdlib.h:497:22: error: unknown type name ‘size_t’
+ extern void *valloc (size_t __size) __THROW __attribute_malloc__ __wur;
+                      ^
+/usr/include/stdlib.h:502:45: error: unknown type name ‘size_t’
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+                                             ^
+/usr/include/stdlib.h:502:65: error: unknown type name ‘size_t’
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+                                                                 ^
+/usr/include/stdlib.h:508:29: error: unknown type name ‘size_t’
+ extern void *aligned_alloc (size_t __alignment, size_t __size)
+                             ^
+/usr/include/stdlib.h:508:49: error: unknown type name ‘size_t’
+ extern void *aligned_alloc (size_t __alignment, size_t __size)
+                                                 ^
+/usr/include/stdlib.h:755:9: error: unknown type name ‘size_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+         ^
+/usr/include/stdlib.h:755:25: error: unknown type name ‘size_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+                         ^
+/usr/include/stdlib.h:760:34: error: unknown type name ‘size_t’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+                                  ^
+/usr/include/stdlib.h:760:50: error: unknown type name ‘size_t’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+                                                  ^
+/usr/include/stdlib.h:839:6: error: unknown type name ‘size_t’
+      size_t __len) __THROW __nonnull ((3, 4, 5));
+      ^
+/usr/include/stdlib.h:842:6: error: unknown type name ‘size_t’
+      size_t __len) __THROW __nonnull ((3, 4, 5));
+      ^
+/usr/include/stdlib.h:846:31: error: unknown type name ‘size_t’
+       char *__restrict __buf, size_t __len)
+                               ^
+/usr/include/stdlib.h:850:31: error: unknown type name ‘size_t’
+       char *__restrict __buf, size_t __len)
+                               ^
+/usr/include/stdlib.h:859:36: error: unknown type name ‘size_t’
+ extern int mblen (const char *__s, size_t __n) __THROW __wur;
+                                    ^
+/usr/include/stdlib.h:863:34: error: unknown type name ‘size_t’
+      const char *__restrict __s, size_t __n) __THROW __wur;
+                                  ^
+/usr/include/stdlib.h:870:8: error: unknown type name ‘size_t’
+ extern size_t mbstowcs (wchar_t *__restrict  __pwcs,
+        ^
+/usr/include/stdlib.h:871:32: error: unknown type name ‘size_t’
+    const char *__restrict __s, size_t __n) __THROW;
+                                ^
+/usr/include/stdlib.h:873:8: error: unknown type name ‘size_t’
+ extern size_t wcstombs (char *__restrict __s,
+        ^
+/usr/include/stdlib.h:874:38: error: unknown type name ‘size_t’
+    const wchar_t *__restrict __pwcs, size_t __n)
+                                      ^
+In file included from pi.c:4:0:
+/usr/include/time.h:205:8: error: unknown type name ‘size_t’
+ extern size_t strftime (char *__restrict __s, size_t __maxsize,
+        ^
+/usr/include/time.h:205:47: error: unknown type name ‘size_t’
+ extern size_t strftime (char *__restrict __s, size_t __maxsize,
+                                               ^
+In file included from pi.c:4:0:
+/usr/include/time.h:223:8: error: unknown type name ‘size_t’
+ extern size_t strftime_l (char *__restrict __s, size_t __maxsize,
+        ^
+/usr/include/time.h:223:49: error: unknown type name ‘size_t’
+ extern size_t strftime_l (char *__restrict __s, size_t __maxsize,
+                                                 ^
+pi.c: In function ‘main’:
+pi.c:35:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("N = %lld\n", N);
+  ^
+pi.c:35:2: warning: incompatible implicit declaration of built-in function ‘printf’
+pi.c:35:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+make: *** [pi.o] Error 1
+Monte Carlo pi estimate with 4 threads
+N = 7777
+pi ~ 3.118940465475119
+elapsed ~ 0.000000 s
+N = 7777
+pi ~ 3.136427928507136
+elapsed ~ 0.000000 s
+N = 7777
+pi ~ 3.138485277099138
+elapsed ~ 0.000000 s
+N = 7777
+pi ~ 3.123569499807124
+elapsed ~ 0.000000 s

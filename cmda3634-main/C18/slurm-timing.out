@@ -1,0 +1,17 @@
+Core distribution on nodes:
+32
+
+The system default contains no modules
+  (env var: LMOD_SYSTEM_DEFAULT_MODULES is empty)
+  No changes in loaded modules
+
+gcc -I ./ -O0  -fopenmp -o strongScalingStudy.o -c strongScalingStudy.c 
+gcc -O0  -fopenmp -o strongScalingStudy.out strongScalingStudy.o -lm
+elapsed = 0.0405561
+elapsed = 0.0210609
+elapsed = 0.0116077
+elapsed = 0.00628976
+elapsed = 0.00431021
+elapsed = 0.00287883
+elapsed = 0.0036872
+elapsed = 0.00552136

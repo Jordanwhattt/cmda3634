@@ -1,0 +1,142 @@
+Core distribution on nodes:
+128
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+rm -f *.o mpiHelloWorld.out
+mpicc -I ./ -O0  -o mpiHelloWorld.o -c mpiHelloWorld.c 
+mpicc -O0  -o mpiHelloWorld.out mpiHelloWorld.o -lm
+nranks=1
+This is rank 0, which is an even rank number 
+nranks=2
+This is rank 0, which is an even rank number 
+nranks=4
+This is rank 0, which is an even rank number 
+This is rank 2, which is an even rank number 
+nranks=8
+This is rank 0, which is an even rank number 
+This is rank 2, which is an even rank number 
+This is rank 4, which is an even rank number 
+This is rank 6, which is an even rank number 
+nranks=16
+This is rank 4, which is an even rank number 
+This is rank 8, which is an even rank number 
+This is rank 12, which is an even rank number 
+This is rank 2, which is an even rank number 
+This is rank 0, which is an even rank number 
+This is rank 6, which is an even rank number 
+This is rank 10, which is an even rank number 
+This is rank 14, which is an even rank number 
+nranks=32
+This is rank 16, which is an even rank number 
+This is rank 8, which is an even rank number 
+This is rank 30, which is an even rank number 
+This is rank 2, which is an even rank number 
+This is rank 10, which is an even rank number 
+This is rank 0, which is an even rank number 
+This is rank 4, which is an even rank number 
+This is rank 22, which is an even rank number 
+This is rank 12, which is an even rank number 
+This is rank 24, which is an even rank number 
+This is rank 14, which is an even rank number 
+This is rank 18, which is an even rank number 
+This is rank 20, which is an even rank number 
+This is rank 26, which is an even rank number 
+This is rank 6, which is an even rank number 
+This is rank 28, which is an even rank number 
+nranks=64
+This is rank 44, which is an even rank number 
+This is rank 56, which is an even rank number 
+This is rank 8, which is an even rank number 
+This is rank 14, which is an even rank number 
+This is rank 46, which is an even rank number 
+This is rank 26, which is an even rank number 
+This is rank 54, which is an even rank number 
+This is rank 34, which is an even rank number 
+This is rank 0, which is an even rank number 
+This is rank 6, which is an even rank number 
+This is rank 10, which is an even rank number 
+This is rank 24, which is an even rank number 
+This is rank 38, which is an even rank number 
+This is rank 50, which is an even rank number 
+This is rank 52, which is an even rank number 
+This is rank 4, which is an even rank number 
+This is rank 16, which is an even rank number 
+This is rank 28, which is an even rank number 
+This is rank 32, which is an even rank number 
+This is rank 18, which is an even rank number 
+This is rank 12, which is an even rank number 
+This is rank 20, which is an even rank number 
+This is rank 36, which is an even rank number 
+This is rank 22, which is an even rank number 
+This is rank 62, which is an even rank number 
+This is rank 60, which is an even rank number 
+This is rank 30, which is an even rank number 
+This is rank 2, which is an even rank number 
+This is rank 40, which is an even rank number 
+This is rank 48, which is an even rank number 
+This is rank 58, which is an even rank number 
+This is rank 42, which is an even rank number 
+nranks=128
+This is rank 38, which is an even rank number 
+This is rank 56, which is an even rank number 
+This is rank 64, which is an even rank number 
+This is rank 74, which is an even rank number 
+This is rank 108, which is an even rank number 
+This is rank 78, which is an even rank number 
+This is rank 88, which is an even rank number 
+This is rank 32, which is an even rank number 
+This is rank 106, which is an even rank number 
+This is rank 40, which is an even rank number 
+This is rank 96, which is an even rank number 
+This is rank 14, which is an even rank number 
+This is rank 26, which is an even rank number 
+This is rank 90, which is an even rank number 
+This is rank 86, which is an even rank number 
+This is rank 112, which is an even rank number 
+This is rank 58, which is an even rank number 
+This is rank 122, which is an even rank number 
+This is rank 68, which is an even rank number 
+This is rank 92, which is an even rank number 
+This is rank 42, which is an even rank number 
+This is rank 16, which is an even rank number 
+This is rank 44, which is an even rank number 
+This is rank 0, which is an even rank number 
+This is rank 50, which is an even rank number 
+This is rank 114, which is an even rank number 
+This is rank 118, which is an even rank number 
+This is rank 60, which is an even rank number 
+This is rank 76, which is an even rank number 
+This is rank 98, which is an even rank number 
+This is rank 102, which is an even rank number 
+This is rank 84, which is an even rank number 
+This is rank 126, which is an even rank number 
+This is rank 62, which is an even rank number 
+This is rank 116, which is an even rank number 
+This is rank 18, which is an even rank number 
+This is rank 28, which is an even rank number 
+This is rank 70, which is an even rank number 
+This is rank 12, which is an even rank number 
+This is rank 66, which is an even rank number 
+This is rank 110, which is an even rank number 
+This is rank 48, which is an even rank number 
+This is rank 104, which is an even rank number 
+This is rank 72, which is an even rank number 
+This is rank 10, which is an even rank number 
+This is rank 54, which is an even rank number 
+This is rank 120, which is an even rank number 
+This is rank 22, which is an even rank number 
+This is rank 4, which is an even rank number 
+This is rank 94, which is an even rank number 
+This is rank 80, which is an even rank number 
+This is rank 124, which is an even rank number 
+This is rank 30, which is an even rank number 
+This is rank 2, which is an even rank number 
+This is rank 20, which is an even rank number 
+This is rank 52, which is an even rank number 
+This is rank 82, which is an even rank number 
+This is rank 46, which is an even rank number 
+This is rank 100, which is an even rank number 
+This is rank 36, which is an even rank number 
+This is rank 34, which is an even rank number 
+This is rank 24, which is an even rank number 
+This is rank 6, which is an even rank number 
+This is rank 8, which is an even rank number 
